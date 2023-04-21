@@ -79,6 +79,16 @@ address {
   line-height: 1.17;
   text-align: center;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 /* ====== END COMPONENTS ======*/
 /* ====== START HEADER ======*/
 .header {
@@ -175,11 +185,7 @@ address {
 }
 /* ====== END HERO ======*/
 /* ====== START FEATURES ======*/
-.features-title {
-    visibility: hidden;
-  pointer-events: none;
-  position: absolute;
-}
+
 .features-section {
   padding-bottom: 0;
 }
@@ -277,11 +283,6 @@ address {
 }
 /* ====== END FOOTER ======*/
 /* ====== START PORTFOLIO HERO ======*/
-.portfolio-title {
-  visibility: hidden;
-  pointer-events: none;
-  position: absolute;
-}
 .portfolio-filter {
   display: flex;
   align-items: center;

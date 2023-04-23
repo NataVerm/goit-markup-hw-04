@@ -159,7 +159,7 @@ address {
   color: var(--accent-color);
 }
 .contact-mail,
-.contact-tel {
+.contact-tel { 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,14 +173,15 @@ address {
 .contact-mail:focus .contact-icon,
 .contact-tel:hover .contact-icon,
 .contact-tel:focus .contact-icon {
-  fill: var(--accent-color);
+fill: var(--accent-color); 
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-tel:hover,
-.contact-tel:focus {
+.contact-tel:focus
+ {
   color: var(--accent-color);
 }
 /* ====== END HEADER ======*/
@@ -330,12 +331,12 @@ address {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 .clients-logo:hover,
 .clients-logo:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid  var(--accent-color);
 }
 .clients-logo:hover .clients-icon,
 .clients-logo:focus .clients-icon {
@@ -344,7 +345,7 @@ address {
 .clients-icon {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: #AFB1B8;
 }
 /* ====== END CLIENTS ======*/
 /* ====== START FOOTER ======*/
@@ -355,8 +356,8 @@ address {
 }
 .footer-container {
   display: flex;
-  gap: 70px;
-  align-items: baseline;
+  gap:  70px;
+  align-items : baseline;
 }
 .logo-footer {
   font-family: var(--secondary-font-family);
@@ -384,11 +385,11 @@ address {
 }
 .footer-social-title {
   margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-text-color-theme-dark);
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color-theme-dark);
 }
 .footer-social-list {
   display: flex;
@@ -396,7 +397,7 @@ address {
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
-.footer-social-list-link {
+.footer-social-list-link{
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-social-list-icon {
@@ -429,8 +430,7 @@ address {
 .portfolio-filter-btn:focus {
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-works-list {
   display: flex;
@@ -441,8 +441,7 @@ address {
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .portfolio-works-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-works-content-wrapper {
   padding: 20px 24px;

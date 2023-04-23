@@ -47,11 +47,15 @@
         <ul class="list contact">
           <li class="contact-item">
             <a class="link contact-mail" href="mailto:info@devstudio.com"
+              ><svg class="contact-icon" width="16" height="12">
+                <use href="./images/sprite.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contact-item">
             <a class="link contact-tel" href="tel:+380961111111"
+              ><svg class="contact-icon" width="10" height="16">
+                <use href="./images/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -90,7 +94,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-1.jpg"
+                  src="./images/portfolio/portfolio-img-1.jpg"
                   alt="Ноутбук з веб-сайтом"
                   width="370"
                   height="294"
@@ -104,7 +108,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-2.jpg"
+                  src="./images/portfolio/portfolio-img-2.jpg"
                   alt="Гравці в баскетбол"
                   width="370"
                   height="294"
@@ -120,7 +124,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-3.jpg"
+                  src="./images/portfolio/portfolio-img-3.jpg"
                   alt="Логотип ресторану"
                   width="370"
                   height="294"
@@ -136,7 +140,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-4.jpg"
+                  src="./images/portfolio/portfolio-img-4.jpg"
                   alt="Навушники"
                   width="370"
                   height="294"
@@ -152,7 +156,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-5.jpg"
+                  src="./images/portfolio/portfolio-img-5.jpg"
                   alt="Дві коробки"
                   width="370"
                   height="294"
@@ -168,7 +172,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-6.jpg"
+                  src="./images/portfolio/portfolio-img-6.jpg"
                   alt="Веб-сайт на моніторі"
                   width="370"
                   height="294"
@@ -184,7 +188,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-7.jpg"
+                  src="./images/portfolio/portfolio-img-7.jpg"
                   alt="Рекламний буклет"
                   width="370"
                   height="294"
@@ -200,7 +204,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-8.jpg"
+                  src="./images/portfolio/portfolio-img-8.jpg"
                   alt="Бірка"
                   width="370"
                   height="294"
@@ -216,7 +220,7 @@
             <li class="portfolio-works-list-item">
               <a class="link" href=""
                 ><img
-                  src="./images/portfolio-img-9.jpg"
+                  src="./images/portfolio/portfolio-img-9.jpg"
                   alt="Додаток на ноутбуці"
                   width="370"
                   height="294"
@@ -235,33 +239,82 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <a class="logo-footer link" href="/" lang="en"
-          ><span class="logo-color">Web</span>Studio</a
-        >
-        <address>
-          <ul class="list address-list">
-            <li class="address-list-item">
-              <a
-                class="link address-list-link address-list-address"
-                href="https://goo.gl/maps/isuV4R65W3E8o1DZ9"
-                target="_blank"
-                rel="noopener noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+      <div class="container footer-container">
+        <div>
+          <a class="logo-footer link" href="/" lang="en"
+            ><span class="logo-color">Web</span>Studio</a
+          >
+          <address>
+            <ul class="list address-list">
+              <li class="address-list-item">
+                <a
+                  class="link address-list-link address-list-address"
+                  href="https://goo.gl/maps/isuV4R65W3E8o1DZ9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a
+                  class="link address-list-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-list-item">
+                <a class="link address-list-link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h3 class="footer-social-title">приєднуйтесь</h3>
+          <ul class="list footer-social-list">
+            <li class="footer-social-item">
+              <a class="footer-social-list-link social-list-link" href=""
+                ><svg
+                  class="footer-social-list-icon social-list-icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#instagram"></use></svg
+              ></a>
             </li>
-            <li class="address-list-item">
-              <a class="link address-list-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="footer-social-item">
+              <a class="footer-social-list-link social-list-link" href=""
+                ><svg
+                  class="footer-social-list-icon social-list-icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#twitter"></use></svg
+              ></a>
             </li>
-            <li class="address-list-item">
-              <a class="link address-list-link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="footer-social-item">
+              <a class="footer-social-list-link social-list-link" href=""
+                ><svg
+                  class="footer-social-list-icon social-list-icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#linkedin"></use></svg
+              ></a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-list-link social-list-link" href=""
+                ><svg
+                  class="footer-social-list-icon social-list-icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./images/sprite.svg#facebook"></use></svg
+              ></a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
